@@ -1,0 +1,16 @@
+// GCD
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+       while(true) {Scanner sc=new Scanner(System.in);
+        int n1=sc.nextInt();
+        int ans=1;
+        int n2=sc.nextInt();
+        for(int num=2;num<=Math.min(n1,n2);num++){
+            if(n1%num==0&&n2%num==0){
+                ans=num;
+            }
+        }
+ System.out.println(ans); }}
+    
+}
